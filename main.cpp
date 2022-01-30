@@ -108,6 +108,7 @@ void receiver()
 }
 void receiver2()
 {
+  check=false;
   cout << "\033[2J\033[1;1H";
   decri="";
   int jcode,jword,jdec;
@@ -187,4 +188,6 @@ int main()
     }
     while(opt!=3);
     }
+    else
+    return 0;
 } 
